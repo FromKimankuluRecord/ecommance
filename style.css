@@ -334,8 +334,52 @@ header #cart {
         justify-content: center;
         align-items: center;
      }
+}
 
+@media (max-width: 400px) {
 
+    header .menu {
+        position: absolute;
+        left: 0;
+        flex-direction: column;
+        padding-top: 40px;
+        width: 40%;
+        height: 40vh;
+        z-index: 5;
+        transition: 0.3s;
+
+    }
+    .accueil .content-box h2 {
+        font-size: 1.97rem;
+    }
+
+    .accueil {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 120px;
+        row-gap: 40px;
+    }
+    
+    .accueil .content-box  {
+        width: 80%;
+        align-items: center;
+    }
+    .accueil .content h3 {
+        font-size: 1.10rem;
+        letter-spacing: 0.5rem;
+    }
+
+    header nav .menu  {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        font-size: 600;
+        width: 380px;
+        padding: 10px 0;
+        margin-left: unset;
+
+    }
 }
 
 
