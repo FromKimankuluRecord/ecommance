@@ -171,7 +171,10 @@ header #cart {
     transition-property: color, background;
     transition-duration: 0.35;
     transition-timing-function: ease;
+    margin-bottom: -4%;
 }
+
+
 
 .accueil .content-box button:hover {
     color: #ff0000;
@@ -308,8 +311,8 @@ header #cart {
         width: 100%;
         text-align: center;
     }
-
-      .accueil .content-box h3  {
+    
+    .accueil .content-box h3  {
         font-size: 1.25rem;
         letter-spacing: 0.5rem;
     }
@@ -323,15 +326,15 @@ header #cart {
         font-size: 0.8rem;
         margin-bottom: 1.1rem;
     }
-
-     .accueil .content-box button {
+    
+    .accueil .content-box button {
         padding: 0.2rem 0.7rem;
         font-size: 0.8rem;
     }
-
-     .accueil .content-box {
+    
+    .accueil .content-box {
         width: 390px;
         justify-content: center;
         align-items: center;
-     }
+    }
 }
