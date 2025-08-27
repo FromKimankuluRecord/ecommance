@@ -195,7 +195,7 @@ header #cart {
     justify-content: center;
 }
 
-.accueil .img-box {
+.accueil .img-box i {
     width: 45%;
 }
 
@@ -214,7 +214,7 @@ header #cart {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: -2rem;
+    margin-bottom: -4rem;
 }
 
 .accueil .reseaux-icons a {
@@ -237,9 +237,7 @@ header #cart {
     background: transparent;
 }
 
-
 .accueil .reseaux-icons::after,
-
 .accueil .reseaux-icons::before {
     position: absolute;
     content: '';
