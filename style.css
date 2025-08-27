@@ -208,7 +208,7 @@ header #cart {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: -2rem;
+    margin-bottom: -5rem;
 }
 
 .accueil .reseaux-icons a {
