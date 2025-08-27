@@ -178,6 +178,13 @@ header #cart {
     background: #161b29;
 }
 
+.accueil .content-box .price img {
+    width: 20%;
+    
+    
+    
+}
+
 .accueil .reseaux-icons {
     position: absolute;
     bottom: 0;
@@ -197,8 +204,6 @@ header #cart {
     width: 100%;
     transform: rotate(-15deg);
 }
-
-
 
 .accueil .reseaux-icons {
     position: absolute;
