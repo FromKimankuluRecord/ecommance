@@ -139,12 +139,6 @@ header #cart {
     color: #246bbf
 }
 
-.accueil .content-box h3 span {
-    color: #c2fb05;
-
-}
-
-
 .accueil .content-box h2 {
     font-size: 2.20rem;
     font-weight: 900;
@@ -195,7 +189,7 @@ header #cart {
     justify-content: center;
 }
 
-.accueil .img-box i {
+.accueil .img-box {
     width: 45%;
 }
 
@@ -214,7 +208,7 @@ header #cart {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: -4rem;
+    margin-top: 1rem;
 }
 
 .accueil .reseaux-icons a {
@@ -237,7 +231,9 @@ header #cart {
     background: transparent;
 }
 
+
 .accueil .reseaux-icons::after,
+
 .accueil .reseaux-icons::before {
     position: absolute;
     content: '';
